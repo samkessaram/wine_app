@@ -1,4 +1,36 @@
 Rails.application.routes.draw do
+  get 'countries/index'
+
+  get 'countries/show'
+
+  get 'countries/new'
+
+  get 'countries/edit'
+
+  get 'wines/index'
+
+  get 'wines/show'
+
+  get 'wines/new'
+
+  get 'wines/edit'
+
+  get 'regions/index'
+
+  get 'regions/show'
+
+  get 'regions/new'
+
+  get 'regions/edit'
+
+  get 'grapes/index'
+
+  get 'grapes/show'
+
+  get 'grapes/new'
+
+  get 'grapes/edit'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
